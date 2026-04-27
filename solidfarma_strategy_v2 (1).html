@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SolidFarma USA — Complete Marketing Strategy | Zarrin Productions</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:"DM Sans",sans-serif;background:#f7f6f3;color:#1B1E22;overflow-x:hidden;}
+:root{
+  --blue:#2B5FEA;--blue-d:#1a4fd6;--blue-pale:#eef2ff;--blue-border:rgba(43,95,234,.2);
+  --teal:#3BC9A8;--teal-pale:#e8faf6;--teal-d:#28b090;
+  --gold:#b8902a;--gold-l:#d4a843;--gold-pale:#fdf6e8;--gold-border:#e8d49a;
+  --purple:#7A52CC;--purple-pale:#f3f0ff;
+  --energy:#F6C85F;
+  --navy:#1a2744;--navy2:#243360;
+  --white:#FFFFFF;--cream:#f7f6f3;--off:#f0ede7;
+  --charcoal:#1B1E22;--muted:#6b7280;--border:#e2ddd6;
+}
+/* ── NAV ── */
+.nav{position:sticky;top:0;z-index:100;background:rgba(26,39,68,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.07);padding:0 48px;}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:60px;}
+.nav-logo{font-family:"Playfair Display",serif;font-size:15px;font-weight:600;color:#fff;letter-spacing:.3px;}
+.nav-logo span{color:var(--teal);}
+.nav-links{display:flex;align-items:center;gap:6px;overflow-x:auto;-ms-overflow-style:none;scrollbar-width:none;}
+.nav-links::-webkit-scrollbar{display:none;}
+.nav-link{font-size:11px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:rgba(255,255,255,.5);text-decoration:none;padding:6px 10px;border-radius:6px;white-space:nowrap;transition:color .2s,background .2s;}
+.nav-link:hover{color:#fff;background:rgba(255,255,255,.08);}
+/* ── HERO ── */
+.hero{background:linear-gradient(150deg,#0d1a3a 0%,#1a2744 40%,#1e3a5f 80%,#152e4a 100%);padding:100px 64px 90px;position:relative;overflow:hidden;}
+.hero-mesh{position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 70% 30%,rgba(59,201,168,.08) 0%,transparent 60%),radial-gradient(ellipse 60% 80% at 20% 80%,rgba(43,95,234,.1) 0%,transparent 60%);pointer-events:none;}
+.hero-grain{position:absolute;inset:0;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");pointer-events:none;}
+.hero-inner{max-width:900px;margin:0 auto;position:relative;z-index:2;}
+.eyebrow-badge{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--teal);background:rgba(59,201,168,.12);border:1px solid rgba(59,201,168,.25);padding:6px 14px;border-radius:100px;}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:12px;margin-bottom:36px;}
+.eyebrow-sep{width:40px;height:1px;background:rgba(255,255,255,.15);}
+.eyebrow-sub{font-size:11px;color:rgba(255,255,255,.3);letter-spacing:1.5px;text-transform:uppercase;}
+.hero-h1{font-family:"Playfair Display",serif;font-size:clamp(48px,6vw,82px);font-weight:600;line-height:.95;color:#fff;margin-bottom:12px;}
+.hero-h1 em{font-style:italic;color:var(--energy);}
+.hero-h1 .teal{color:var(--teal);}
+.hero-tagline{font-size:17px;font-weight:300;color:rgba(255,255,255,.55);margin:24px 0 44px;max-width:600px;line-height:1.7;}
+.hero-meta{display:flex;gap:32px;flex-wrap:wrap;}
+.hero-meta-item{display:flex;flex-direction:column;gap:4px;}
+.meta-label{font-size:9.5px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.3);}
+.meta-value{font-size:13px;font-weight:500;color:rgba(255,255,255,.75);}
+.teal-bar{height:3px;background:linear-gradient(90deg,var(--teal) 0%,var(--blue) 50%,rgba(43,95,234,.1) 80%,transparent 100%);}
+/* ── TOC ── */
+.toc-section{background:var(--navy);padding:56px 64px;}
+.toc-inner{max-width:1100px;margin:0 auto;}
+.toc-label{font-size:9.5px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--teal);margin-bottom:28px;display:flex;align-items:center;gap:10px;}
+.toc-label::after{content:"";flex:1;height:1px;background:rgba(255,255,255,.06);}
+.toc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;}
+.toc-item{display:flex;align-items:center;gap:12px;padding:14px 18px;border-radius:10px;border:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.03);text-decoration:none;transition:background .2s,border-color .2s;}
+.toc-item:hover{background:rgba(59,201,168,.07);border-color:rgba(59,201,168,.2);}
+.toc-item.highlight-toc{background:rgba(59,201,168,.1);border-color:rgba(59,201,168,.3);}
+.toc-num{font-size:10px;font-weight:700;color:var(--teal);min-width:20px;}
+.toc-title{font-size:12.5px;font-weight:500;color:rgba(255,255,255,.65);}
+/* ── MAIN ── */
+.main{max-width:1100px;margin:0 auto;padding:80px 64px 100px;}
+/* ── SECTION HEADER ── */
+.sec-header{margin-bottom:48px;}
+.sec-num{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--teal);margin-bottom:8px;display:flex;align-items:center;gap:10px;}
+.sec-num::before{content:"";width:20px;height:1px;background:var(--teal);}
+.sec-h2{font-family:"Playfair Display",serif;font-size:clamp(32px,4vw,48px);font-weight:600;color:var(--navy);line-height:1.05;}
+.sec-h2 em{font-style:italic;color:var(--blue);}
+.sec-intro{font-size:16px;color:var(--muted);line-height:1.8;max-width:700px;margin-top:16px;}
+/* ── CARDS ── */
+.card{background:var(--white);border:1px solid var(--border);border-radius:20px;padding:48px;margin-bottom:20px;position:relative;overflow:hidden;box-shadow:0 2px 20px rgba(26,39,68,.05);transition:box-shadow .3s,border-color .3s;animation:fadeUp .5s ease both;}
+.card:hover{box-shadow:0 8px 40px rgba(26,39,68,.09);border-color:rgba(43,95,234,.18);}
+.card::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue) 0%,var(--teal) 50%,transparent 100%);border-radius:20px 20px 0 0;}
+.card.gold-top::before{background:linear-gradient(90deg,var(--gold) 0%,var(--gold-l) 50%,transparent 100%);}
+.card.teal-top::before{background:linear-gradient(90deg,var(--teal) 0%,#6be8cc 60%,transparent 100%);}
+.card.purple-top::before{background:linear-gradient(90deg,var(--purple) 0%,#a07ee0 60%,transparent 100%);}
+.card-h3{font-family:"Playfair Display",serif;font-size:clamp(22px,2.5vw,30px);font-weight:600;color:var(--navy);margin-bottom:8px;}
+.card-h3 em{font-style:italic;color:var(--teal);}
+.card-sub{font-size:13px;color:var(--muted);margin-bottom:24px;line-height:1.6;}
+.body-p{font-size:15px;line-height:1.85;color:#444;margin-bottom:16px;}
+/* ── DARK CARDS ── */
+.dark-card{background:linear-gradient(150deg,var(--navy) 0%,var(--navy2) 100%);border-radius:20px;padding:48px;margin-bottom:20px;position:relative;overflow:hidden;box-shadow:0 8px 48px rgba(26,39,68,.2);}
+.dark-card::before{content:"";position:absolute;top:-100px;right:-100px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(59,201,168,.08) 0%,transparent 65%);pointer-events:none;}
+.dark-card .sec-num{color:var(--teal);}
+.dark-card .card-h3{color:#fff;}
+.dark-card .body-p{color:rgba(255,255,255,.6);}
+/* ── ZARRIN AT WORK BANNER ── */
+.zarrin-banner{background:linear-gradient(135deg,#0d1a3a 0%,#1a2744 50%,#1e3558 100%);border-radius:24px;padding:56px 64px;margin-bottom:20px;position:relative;overflow:hidden;border:1px solid rgba(59,201,168,.2);box-shadow:0 12px 60px rgba(26,39,68,.25);}
+.zarrin-banner::before{content:"";position:absolute;top:-100px;right:-80px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(59,201,168,.1) 0%,transparent 55%);pointer-events:none;}
+.zarrin-banner::after{content:"";position:absolute;bottom:-80px;left:-40px;width:350px;height:350px;border-radius:50%;background:radial-gradient(circle,rgba(184,144,42,.08) 0%,transparent 55%);pointer-events:none;}
+.zarrin-banner-inner{position:relative;z-index:2;}
+.zarrin-banner-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(59,201,168,.12);border:1px solid rgba(59,201,168,.3);border-radius:100px;padding:5px 14px;margin-bottom:20px;}
+.zarrin-banner-dot{width:7px;height:7px;border-radius:50%;background:var(--teal);box-shadow:0 0 8px rgba(59,201,168,.8);animation:pulse 2s ease infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.6;transform:scale(.8);}}
+.zarrin-banner-eyebrow span{font-size:9.5px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--teal);}
+.zarrin-banner h3{font-family:"Playfair Display",serif;font-size:clamp(28px,3.5vw,40px);font-weight:600;color:#fff;line-height:1.1;margin-bottom:16px;}
+.zarrin-banner h3 em{font-style:italic;color:var(--energy);}
+.zarrin-banner .banner-intro{font-size:15.5px;color:rgba(255,255,255,.6);line-height:1.85;max-width:700px;margin-bottom:36px;}
+.zarrin-banner .banner-intro strong{color:rgba(255,255,255,.9);font-weight:500;}
+.zarrin-work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:36px;}
+.zarrin-work-tile{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:22px;transition:background .2s,border-color .2s;}
+.zarrin-work-tile:hover{background:rgba(59,201,168,.08);border-color:rgba(59,201,168,.25);}
+.work-tile-icon{font-size:20px;margin-bottom:10px;}
+.work-tile-title{font-size:13px;font-weight:700;color:rgba(255,255,255,.9);margin-bottom:6px;}
+.work-tile-body{font-size:12px;color:rgba(255,255,255,.5);line-height:1.6;}
+.zarrin-beyond{background:rgba(184,144,42,.08);border:1px solid rgba(184,144,42,.2);border-radius:14px;padding:24px 28px;}
+.zarrin-beyond-label{font-size:9.5px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold-l);margin-bottom:10px;}
+.zarrin-beyond p{font-size:13.5px;color:rgba(255,255,255,.6);line-height:1.75;}
+.zarrin-beyond p strong{color:rgba(255,255,255,.85);}
+/* ── PILLS ── */
+.pill{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 14px;border-radius:100px;white-space:nowrap;}
+.pill-blue{background:var(--blue-pale);color:var(--blue);border:1px solid var(--blue-border);}
+.pill-teal{background:var(--teal-pale);color:var(--teal-d);border:1px solid rgba(59,201,168,.3);}
+.pill-gold{background:var(--gold-pale);color:var(--gold);border:1px solid var(--gold-border);}
+.pill-purple{background:var(--purple-pale);color:var(--purple);border:1px solid rgba(122,82,204,.25);}
+/* ── POSITIONING ── */
+.pos-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
+.pos-item{background:var(--off);border:1px solid var(--border);border-radius:14px;padding:24px;}
+.pos-label{font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--blue);margin-bottom:10px;}
+.pos-text{font-size:14px;line-height:1.7;color:var(--charcoal);}
+.pos-item.highlight{background:var(--navy);border-color:var(--navy2);}
+.pos-item.highlight .pos-label{color:var(--teal);}
+.pos-item.highlight .pos-text{color:rgba(255,255,255,.8);}
+/* ── PROMISE STACK ── */
+.promise-stack{display:flex;flex-direction:column;gap:12px;margin:24px 0;}
+.promise-row{display:flex;gap:16px;align-items:flex-start;padding:18px 20px;border-radius:12px;border:1px solid var(--border);background:var(--off);transition:border-color .2s;}
+.promise-row:hover{border-color:var(--blue-border);}
+.promise-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
+.promise-icon.blue{background:var(--blue-pale);}
+.promise-icon.teal{background:var(--teal-pale);}
+.promise-icon.gold{background:var(--gold-pale);}
+.promise-icon.purple{background:var(--purple-pale);}
+.promise-content strong{display:block;font-size:13px;font-weight:600;color:var(--charcoal);margin-bottom:4px;}
+.promise-content p{font-size:12.5px;color:var(--muted);line-height:1.6;}
+/* ── TABLES ── */
+.tbl-wrap{overflow-x:auto;margin:24px 0;border-radius:14px;border:1px solid var(--border);box-shadow:0 2px 12px rgba(26,39,68,.04);}
+table{width:100%;border-collapse:collapse;font-size:13px;}
+thead{background:var(--navy);}
+thead th{padding:14px 18px;text-align:left;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.7);white-space:nowrap;}
+thead th:first-child{border-radius:14px 0 0 0;}
+thead th:last-child{border-radius:0 14px 0 0;}
+tbody tr{border-bottom:1px solid var(--border);}
+tbody tr:last-child{border-bottom:none;}
+tbody tr:nth-child(even){background:var(--off);}
+tbody td{padding:13px 18px;color:#444;line-height:1.55;vertical-align:top;}
+tbody td strong{color:var(--charcoal);font-weight:600;}
+/* ── CALLOUTS ── */
+.callout{border-radius:14px;padding:24px 28px;margin:20px 0;}
+.callout.blue{background:var(--blue-pale);border:1px solid var(--blue-border);}
+.callout.teal{background:var(--teal-pale);border:1px solid rgba(59,201,168,.25);}
+.callout.gold{background:var(--gold-pale);border:1px solid var(--gold-border);}
+.callout.warn{background:#fff8f0;border:1px solid #ffd4a0;}
+.callout.dark{background:var(--navy);border:1px solid rgba(255,255,255,.08);}
+.callout-label{font-size:9.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;}
+.callout.blue .callout-label{color:var(--blue);}
+.callout.teal .callout-label{color:var(--teal-d);}
+.callout.gold .callout-label{color:var(--gold);}
+.callout.warn .callout-label{color:#c87000;}
+.callout.dark .callout-label{color:var(--teal);}
+.callout p,.callout ul{font-size:13.5px;line-height:1.75;color:#444;}
+.callout.dark p{color:rgba(255,255,255,.65);}
+.callout.dark p strong{color:#fff;}
+.callout ul{padding-left:18px;}
+.callout li{margin-bottom:4px;}
+/* ── FUNNEL ── */
+.funnel{display:flex;flex-direction:column;gap:4px;margin:24px 0;}
+.funnel-stage{border-radius:12px;padding:18px 24px;display:flex;align-items:center;gap:16px;position:relative;}
+.funnel-stage::after{content:"▾";position:absolute;bottom:-14px;left:50%;transform:translateX(-50%);color:var(--muted);font-size:12px;z-index:1;}
+.funnel-stage:last-child::after{display:none;}
+.funnel-stage.awareness{background:linear-gradient(90deg,rgba(43,95,234,.08) 0%,transparent 100%);border:1px solid rgba(43,95,234,.15);}
+.funnel-stage.consideration{background:linear-gradient(90deg,rgba(59,201,168,.08) 0%,transparent 100%);border:1px solid rgba(59,201,168,.15);}
+.funnel-stage.conversion{background:linear-gradient(90deg,rgba(246,200,95,.1) 0%,transparent 100%);border:1px solid rgba(246,200,95,.3);}
+.funnel-stage.retention{background:linear-gradient(90deg,rgba(122,82,204,.08) 0%,transparent 100%);border:1px solid rgba(122,82,204,.15);}
+.funnel-icon{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;}
+.funnel-stage.awareness .funnel-icon{background:var(--blue-pale);}
+.funnel-stage.consideration .funnel-icon{background:var(--teal-pale);}
+.funnel-stage.conversion .funnel-icon{background:var(--gold-pale);}
+.funnel-stage.retention .funnel-icon{background:var(--purple-pale);}
+.funnel-body strong{font-size:14px;font-weight:600;color:var(--charcoal);display:block;margin-bottom:3px;}
+.funnel-body p{font-size:12px;color:var(--muted);line-height:1.5;}
+.funnel-metric{margin-left:auto;text-align:right;flex-shrink:0;}
+.funnel-metric span{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--muted);display:block;}
+.funnel-metric strong{font-size:13px;color:var(--charcoal);}
+/* ── TECH STACK ── */
+.tech-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
+.tech-card{background:var(--white);border:1px solid var(--border);border-radius:16px;overflow:hidden;transition:box-shadow .25s,border-color .25s;}
+.tech-card:hover{box-shadow:0 8px 32px rgba(26,39,68,.09);border-color:var(--blue-border);}
+.tech-card-head{background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 100%);padding:24px 28px 20px;}
+.tech-card-icon{font-size:24px;margin-bottom:10px;}
+.tech-card-name{font-size:16px;font-weight:700;color:#fff;margin-bottom:4px;}
+.tech-card-role{font-size:11px;color:rgba(255,255,255,.45);font-weight:500;letter-spacing:.5px;}
+.tech-card-body{padding:20px 28px;}
+.tech-card-body p{font-size:13px;color:var(--muted);line-height:1.65;margin-bottom:12px;}
+.tech-card-body p:last-child{margin-bottom:0;}
+.tech-tag-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;}
+.tech-tag{font-size:10px;font-weight:600;padding:3px 10px;border-radius:6px;background:var(--blue-pale);color:var(--blue);border:1px solid var(--blue-border);}
+.tech-tag.teal{background:var(--teal-pale);color:var(--teal-d);border-color:rgba(59,201,168,.3);}
+.tech-tag.gold{background:var(--gold-pale);color:var(--gold);border-color:var(--gold-border);}
+/* ── PHASE CARDS ── */
+.phase-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:24px 0;}
+.phase-card{background:var(--white);border:1px solid var(--border);border-radius:14px;padding:20px;position:relative;overflow:hidden;}
+.phase-card::before{content:"";position:absolute;bottom:0;left:0;right:0;height:3px;}
+.phase-card:nth-child(1)::before,.phase-card:nth-child(2)::before{background:var(--teal);}
+.phase-card:nth-child(3)::before,.phase-card:nth-child(4)::before{background:var(--blue);}
+.phase-card:nth-child(5)::before,.phase-card:nth-child(6)::before{background:var(--gold);}
+.phase-card:nth-child(7)::before,.phase-card:nth-child(8)::before{background:var(--purple);}
+.phase-card:nth-child(9)::before{background:var(--energy);}
+.phase-num{font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
+.phase-name{font-size:14px;font-weight:700;color:var(--navy);margin-bottom:6px;line-height:1.3;}
+.phase-week{font-size:11px;color:var(--teal-d);font-weight:600;margin-bottom:10px;}
+.phase-tasks{font-size:12px;color:var(--muted);line-height:1.6;}
+/* ── VOICE GRID ── */
+.voice-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:24px 0;}
+.voice-item{background:var(--off);border:1px solid var(--border);border-radius:12px;padding:18px;}
+.voice-label{font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
+.voice-text{font-family:"Playfair Display",serif;font-size:14px;font-style:italic;color:var(--navy);line-height:1.5;}
+/* ── SCRIPT BLOCKS ── */
+.script-block{background:var(--off);border:1px solid var(--border);border-radius:12px;padding:22px;margin-bottom:16px;}
+.script-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--blue);margin-bottom:14px;}
+.script-text{font-size:13px;color:#444;line-height:1.85;}
+/* ── ADS TESTING ── */
+.ads-testing-banner{background:linear-gradient(135deg,#0d1a3a 0%,#1a2744 60%,#1a3050 100%);border-radius:20px;padding:48px;margin-bottom:20px;position:relative;overflow:hidden;border:2px solid rgba(246,200,95,.25);}
+.ads-testing-banner::before{content:"";position:absolute;top:-60px;right:-60px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(246,200,95,.12) 0%,transparent 60%);pointer-events:none;}
+.ads-num-row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:28px 0;}
+.ads-num-tile{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:22px 18px;text-align:center;}
+.ads-num{font-family:"Playfair Display",serif;font-size:42px;font-weight:600;color:var(--energy);line-height:1;}
+.ads-num-label{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:6px;}
+/* ── ASSET GRID ── */
+.asset-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:24px 0;}
+.asset-group{background:var(--white);border:1px solid var(--border);border-radius:16px;padding:28px;}
+.asset-group-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:8px;}
+.asset-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+.asset-dot.must{background:#e84040;}
+.asset-dot.should{background:var(--blue);}
+.asset-dot.scale{background:var(--teal);}
+.asset-dot.long{background:var(--purple);}
+.asset-group-label.must{color:#c0392b;}
+.asset-group-label.should{color:var(--blue);}
+.asset-group-label.scale{color:var(--teal-d);}
+.asset-group-label.long{color:var(--purple);}
+.asset-list-items{list-style:none;display:flex;flex-direction:column;gap:6px;padding:0;}
+.asset-list-items li{font-size:13px;color:#444;display:flex;align-items:flex-start;gap:8px;line-height:1.5;}
+.asset-list-items li::before{content:"";width:4px;height:4px;border-radius:50%;background:currentColor;flex-shrink:0;margin-top:7px;opacity:.5;}
+/* ── CTA ── */
+.cta-section{background:linear-gradient(150deg,var(--navy) 0%,var(--navy2) 100%);border-radius:24px;padding:64px;text-align:center;position:relative;overflow:hidden;margin-bottom:20px;}
+.cta-section::before{content:"";position:absolute;top:-80px;left:50%;transform:translateX(-50%);width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(59,201,168,.07) 0%,transparent 60%);pointer-events:none;}
+.cta-h2{font-family:"Playfair Display",serif;font-size:clamp(32px,4vw,48px);color:#fff;margin-bottom:16px;}
+.cta-h2 em{font-style:italic;color:var(--teal);}
+.cta-sub{font-size:16px;color:rgba(255,255,255,.5);margin-bottom:40px;max-width:560px;margin-left:auto;margin-right:auto;line-height:1.7;}
+.cta-buttons{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 36px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none;transition:all .2s;}
+.btn-teal{background:linear-gradient(135deg,var(--teal-d) 0%,var(--teal) 100%);color:#fff;box-shadow:0 6px 24px rgba(59,201,168,.3);}
+.btn-teal:hover{box-shadow:0 10px 32px rgba(59,201,168,.5);transform:translateY(-2px);}
+.btn-outline{background:transparent;color:rgba(255,255,255,.8);border:1px solid rgba(255,255,255,.2);}
+.btn-outline:hover{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.35);}
+/* ── FOOTER ── */
+.foot{border-top:1px solid var(--border);padding:28px 64px;text-align:center;background:var(--white);}
+.foot p{font-size:11px;color:#bbb;letter-spacing:.5px;}
+.section-divider{height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);margin:64px 0;}
+.section-anchor{display:block;height:80px;margin-top:-80px;visibility:hidden;}
+/* ── UTILITY ── */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;}
+.mt24{margin-top:24px;}
+/* ── ANIM ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px);}to{opacity:1;transform:none;}}
+.card:nth-child(2){animation-delay:.08s;}
+.card:nth-child(3){animation-delay:.16s;}
+/* ── RESPONSIVE ── */
+@media(max-width:768px){
+  .nav{padding:0 20px;}
+  .hero{padding:72px 24px 64px;}
+  .toc-section{padding:40px 24px;}
+  .main{padding:56px 24px 72px;}
+  .card,.dark-card,.zarrin-banner,.ads-testing-banner{padding:28px 22px;}
+  .zarrin-banner{padding:32px 24px;}
+  .zarrin-work-grid,.pos-grid,.two-col,.tech-grid,.asset-grid{grid-template-columns:1fr;}
+  .voice-grid,.three-col,.ads-num-row{grid-template-columns:1fr 1fr;}
+  .cta-section{padding:44px 24px;}
+  .foot{padding:20px 24px;}
+  .elite-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-logo">Zarrin <span>×</span> SolidFarma</div>
+    <div class="nav-links">
+      <a class="nav-link" href="#s0">Behind the Scenes</a>
+      <a class="nav-link" href="#s1">Summary</a>
+      <a class="nav-link" href="#s4">Content</a>
+      <a class="nav-link" href="#s5">Funnel</a>
+      <a class="nav-link" href="#s6">Website</a>
+      <a class="nav-link" href="#s7">Offers</a>
+      <a class="nav-link" href="#s8">Social</a>
+      <a class="nav-link" href="#s9">Paid Ads</a>
+      <a class="nav-link" href="#s10">Challenge</a>
+      <a class="nav-link" href="#s11">Voice</a>
+      <a class="nav-link" href="#s12">Competitive</a>
+      <a class="nav-link" href="#s13">Tech Stack</a>
+      <a class="nav-link" href="#s14">Roadmap</a>
+      <a class="nav-link" href="#s15">Assets</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-mesh"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">
+      <span class="eyebrow-badge">Confidential Strategy Brief</span>
+      <span class="eyebrow-sep"></span>
+      <span class="eyebrow-sub">Zarrin Productions × SolidFarma USA</span>
+    </div>
+    <h1 class="hero-h1">MyoSynex™<br/><em>Go-To-Market</em><br/><span class="teal">Strategy</span></h1>
+    <p class="hero-tagline">A complete, execution-ready marketing system designed to position SolidFarma as the definitive premium brand in functional muscle health for adults 50+.</p>
+    <div class="hero-meta">
+      <div class="hero-meta-item"><span class="meta-label">Prepared By</span><span class="meta-value">Zarrin Productions</span></div>
+      <div class="hero-meta-item"><span class="meta-label">Prepared For</span><span class="meta-value">SolidFarma USA Corp.</span></div>
+      <div class="hero-meta-item"><span class="meta-label">Product</span><span class="meta-value">MyoSynex™ — Gut-Muscle Axis</span></div>
+      <div class="hero-meta-item"><span class="meta-label">Target Launch</span><span class="meta-value">June 2026</span></div>
+      <div class="hero-meta-item"><span class="meta-label">Sections</span><span class="meta-value">15 Strategic Areas</span></div>
+    </div>
+  </div>
+</header>
+<div class="teal-bar"></div>
+
+<!-- TOC -->
+<section class="toc-section">
+  <div class="toc-inner">
+    <div class="toc-label">Table of Contents</div>
+    <div class="toc-grid">
+      <a class="toc-item highlight-toc" href="#s0"><span class="toc-num">★</span><span class="toc-title">Zarrin Behind the Scenes</span></a>
+      <a class="toc-item" href="#s1"><span class="toc-num">01</span><span class="toc-title">Executive Summary</span></a>
+      <a class="toc-item" href="#s4"><span class="toc-num">02</span><span class="toc-title">Content &amp; Video Strategy</span></a>
+      <a class="toc-item" href="#s5"><span class="toc-num">05</span><span class="toc-title">Funnel Strategy</span></a>
+      <a class="toc-item" href="#s6"><span class="toc-num">06</span><span class="toc-title">Website &amp; Landing Pages</span></a>
+      <a class="toc-item" href="#s7"><span class="toc-num">07</span><span class="toc-title">Offer &amp; Monetization</span></a>
+      <a class="toc-item" href="#s8"><span class="toc-num">08</span><span class="toc-title">Social Media Strategy</span></a>
+      <a class="toc-item" href="#s9"><span class="toc-num">09</span><span class="toc-title">Paid Ads — 50+ Creative Testing</span></a>
+      <a class="toc-item" href="#s10"><span class="toc-num">10</span><span class="toc-title">90-Day Challenge Growth</span></a>
+      <a class="toc-item" href="#s11"><span class="toc-num">11</span><span class="toc-title">Brand Voice &amp; Messaging</span></a>
+      <a class="toc-item" href="#s12"><span class="toc-num">12</span><span class="toc-title">Competitive Landscape</span></a>
+      <a class="toc-item" href="#s13"><span class="toc-num">13</span><span class="toc-title">Tech Stack &amp; Platform Setup</span></a>
+      <a class="toc-item" href="#s14"><span class="toc-num">14</span><span class="toc-title">Execution Roadmap</span></a>
+      <a class="toc-item" href="#s15"><span class="toc-num">15</span><span class="toc-title">Priority Asset List</span></a>
+    </div>
+  </div>
+</section>
+
+<main class="main">
+
+<!-- ═══ BEHIND THE SCENES ═══ -->
+<span id="s0" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Behind the Scenes</div>
+  <h2 class="sec-h2">What Zarrin Has Been <em>Building</em></h2>
+  <p class="sec-intro">While brand guidelines are being finalized, Zarrin Productions has not been waiting. We have been doing the deep work — so the moment guidelines land, execution begins at full speed.</p>
+</div>
+
+<div class="zarrin-banner">
+  <div class="zarrin-banner-inner">
+    <div class="zarrin-banner-eyebrow"><div class="zarrin-banner-dot"></div><span>Active — Right Now</span></div>
+    <h3>Already in Motion.<br/>Already <em>Thinking Ahead.</em></h3>
+    <p class="banner-intro">This is not a strategy that was written the night before a meeting. <strong>This is the result of weeks of deep research, creative development, and strategic preparation</strong> — done on our own initiative because we believe in what SolidFarma is building and want to earn the right to build it with you. When the brand guidelines arrive, we will not be starting. We will be accelerating.</p>
+
+    <div class="zarrin-beyond">
+      <div class="zarrin-beyond-label">Beyond the Launch — Our Long-Term Commitment</div>
+      <p>The 288 videos are the foundation. But <strong>what Zarrin is positioning to become for SolidFarma goes significantly further</strong>. Once the launch is underway and trust is established through quality, we are fully equipped to run the entire marketing operation — paid acquisition, community management, social media, email/SMS, platform administration, website management, and the ongoing creative engine that a DTC brand this ambitious requires. <strong>We are not here for just the project — but for a partnership.</strong></p>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S1: EXECUTIVE SUMMARY ═══ -->
+<span id="s1" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 01</div>
+  <h2 class="sec-h2">Executive <em>Summary</em></h2>
+  <p class="sec-intro">The opportunity in front of SolidFarma is exceptional. Here is the core strategic picture in one place.</p>
+</div>
+
+<div class="dark-card" style="animation:fadeUp .5s ease both;">
+  <div class="sec-num">The Market Opportunity</div>
+  <h3 class="card-h3" style="color:#fff;font-family:'Playfair Display',serif;font-size:28px;margin-bottom:16px;">A $26 Billion Window That's Wide Open</h3>
+  <p class="body-p">The global muscle health supplement market is growing rapidly, driven by a 77 million-strong US adult population over 50 that is more health-conscious, more digitally active, and more financially capable than any prior generation of older adults. Yet the vast majority of supplement marketing either targets young gym-goers or retreats into sterile clinical messaging that fails to connect emotionally. The space between "bodybuilding brand" and "medical supplement" is enormous — and almost nobody is owning it with premium, systems-based positioning. MyoSynex can own that space.</p>
+  <div class="pos-grid" style="margin-top:24px;">
+    <div class="pos-item highlight">
+      <div class="pos-label">Core Positioning Opportunity</div>
+      <div class="pos-text" style="color:rgba(255,255,255,.8);">SolidFarma should not market MyoSynex as a supplement. It should market it as a system — a premium, guided 90-day experience that combines clinically studied ingredients with lifestyle education to help adults 50+ stay strong, independent, and capable.</div>
+    </div>
+    <div class="pos-item highlight">
+      <div class="pos-label">The Growth Engine</div>
+      <div class="pos-text" style="color:rgba(255,255,255,.8);">The 90-day challenge is the single most powerful commercial differentiator in the entire go-to-market strategy. It converts a one-time transaction into an educational experience. It converts customers into community members. It turns compliance into habit. It turns habit into loyalty.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <h3 class="card-h3">Why MyoSynex Can <em>Stand Out</em></h3>
+  <div class="promise-stack">
+    <div class="promise-row">
+      <div class="promise-icon teal">🔬</div>
+      <div class="promise-content"><strong>The Gut-Muscle Axis — Unique Science Platform</strong><p>The gut-muscle connection is real, clinically studied, and almost entirely absent from mainstream supplement positioning. "We don't add more protein — we help your body use more protein" is a belief shift that is both simple and powerful. Once a customer understands this concept, every competitor feels inadequate by comparison.</p></div>
+    </div>
+    <div class="promise-row">
+      <div class="promise-icon blue">🏆</div>
+      <div class="promise-content"><strong>The System Advantage — Supplement Plus Challenge</strong><p>Every other brand sells a product. SolidFarma sells a transformation experience. When the 90-day challenge is properly marketed, it shifts the customer's frame from "will this work?" to "am I in or am I out?" That is a fundamentally different and more powerful conversation.</p></div>
+    </div>
+    <div class="promise-row">
+      <div class="promise-icon gold">🎯</div>
+      <div class="promise-content"><strong>Premium Positioning in an Underserved Segment</strong><p>Adults 50+ are increasingly rejecting brands that market at them rather than to them. They want to be seen as capable, vital, and proactive — not fragile or declining. SolidFarma's "proactive ager" framing is emotionally resonant and commercially rare.</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="card teal-top">
+  <h3 class="card-h3">The Role of Each Channel</h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Channel</th><th>Primary Role</th><th>Key Metric</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Video Content (288 Challenge Videos)</strong></td><td>Retention engine. Turns the product into a system. Creates daily touchpoints that build habit, trust, and community.</td><td>Challenge completion rate</td></tr>
+        <tr><td><strong>Website (Shopify + Webflow)</strong></td><td>Conversion hub. Every paid and organic dollar flows here. Must educate, build trust, and invite into the challenge.</td><td>Product page CVR</td></tr>
+        <tr><td><strong>Paid Ads (Meta + YouTube) — 50+ creatives minimum</strong></td><td>Awareness and direct response. Drive targeted traffic to landing pages and challenge sign-ups with tested, winning hooks.</td><td>Cost per challenge sign-up</td></tr>
+        <tr><td><strong>Email &amp; SMS (via GoHighLevel)</strong></td><td>Retention and re-purchase. Automated sequences that support challenge participants and drive subscription conversion.</td><td>Retention rate at 90 days</td></tr>
+        <tr><td><strong>90-Day Challenge App (Passion.io)</strong></td><td>The ultimate retention weapon. Makes customers feel part of something larger than a supplement purchase.</td><td>DAU, repeat purchase rate</td></tr>
+        <tr><td><strong>Organic Social (Instagram, Facebook)</strong></td><td>Trust and brand building. Community content, education, science made simple, lifestyle aspiration.</td><td>Follower growth, engagement rate</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+
+
+
+
+<div class="section-divider"></div>
+
+<!-- ═══ S4: CONTENT STRATEGY ═══ -->
+<span id="s4" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 04</div>
+  <h2 class="sec-h2">Content &amp; <em>Video Strategy</em></h2>
+  <p class="sec-intro">288 videos is not a volume challenge. It is a trust architecture. Every video is a daily deposit in the customer's belief in the brand, the product, and themselves.</p>
+</div>
+
+<div class="card gold-top">
+  <h3 class="card-h3">Content <em>Matrix</em></h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Pillar</th><th>Purpose</th><th>Example Topics</th><th>Best Format</th><th>Funnel Stage</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Product</strong></td><td>Explain the science simply. Build credibility and belief in the mechanism.</td><td>Gut-Muscle Axis explained; How MyoSynex works; What lysine activation means for your muscles; Why absorption matters after 50</td><td>Animated explainer, Talking head with data overlays</td><td>Awareness → Consideration</td></tr>
+        <tr><td><strong>Nutrition</strong></td><td>Educate on foods that amplify the supplement's effect. Create practical daily habits.</td><td>Lysine-rich foods list; Protein timing for 50+; Anti-inflammatory basics; Easy meal frameworks</td><td>List-style teaching, demo with B-roll</td><td>Onboarding → Retention</td></tr>
+        <tr><td><strong>Movement</strong></td><td>Show that resistance doesn't require a gym. Make movement accessible and achievable.</td><td>Chair squats tutorial; Grip strength exercises; Daily 10-minute mobility routine; Stair confidence</td><td>Demonstration, step-by-step with text overlays</td><td>Onboarding → Retention</td></tr>
+        <tr><td><strong>Wellness</strong></td><td>Connect sleep, stress, and mindfulness to muscle recovery and supplement efficacy.</td><td>Sleep hygiene for muscle recovery; How cortisol breaks down muscle; Mindfulness for consistent habits</td><td>Educational, expert-style authority</td><td>Retention → Advocacy</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card">
+  <h3 class="card-h3">Video Formula <em>Templates</em></h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Format</th><th>Hook Style</th><th>Structure</th><th>Motion Graphics Direction</th><th>CTA</th><th>Primary KPI</th></tr></thead>
+      <tbody>
+        <tr><td><strong>15-sec Ad</strong></td><td>Provocative statement or scroll-stopper question</td><td>Hook → Problem → Product Name → CTA</td><td>Bold text overlay, kinetic typography</td><td>Learn more</td><td>3-sec view rate</td></tr>
+        <tr><td><strong>30-sec Ad</strong></td><td>Relatable pain moment</td><td>Hook → Why it happens → How MyoSynex addresses it → CTA</td><td>Animated transition, branded lower thirds</td><td>Join the 90-Day Challenge</td><td>Click-through rate</td></tr>
+        <tr><td><strong>60-sec Ad</strong></td><td>Curiosity-first question</td><td>Discovery hook → Why most fail → Mechanism → System CTA</td><td>Science diagram animation, B-roll transitions</td><td>Start your 90 days</td><td>View-through + CVR</td></tr>
+        <tr><td><strong>4-min Challenge Video</strong></td><td>"Today we're covering..." (relevance hook)</td><td>Context → Simplified science → Action item → Progress framing</td><td>Chapter markers, data overlays, branded lower thirds</td><td>Log your action in the app</td><td>Completion rate</td></tr>
+        <tr><td><strong>Testimonial Video</strong></td><td>Authentic specific moment or change</td><td>Before state → Discovery → Results → What they tell others</td><td>Minimal — subtitle only for accessibility</td><td>Start your own journey</td><td>Trust score / conversion assist</td></tr>
+        <tr><td><strong>Website VBC</strong></td><td>Brand identity open</td><td>Who we are → What we believe → What MyoSynex does → Invitation</td><td>Premium animated intro, science diagram, lifestyle B-roll</td><td>Join the 90-Day Challenge</td><td>Time on site / conversion</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S5: FUNNEL STRATEGY ═══ -->
+<span id="s5" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 05</div>
+  <h2 class="sec-h2">Complete <em>Funnel Strategy</em></h2>
+  <p class="sec-intro">The SolidFarma funnel is not a straight line from ad to purchase. It is a layered experience that converts strangers into challenge participants, participants into subscribers, and subscribers into brand advocates.</p>
+</div>
+
+<div class="card">
+  <h3 class="card-h3">Funnel <em>Architecture</em></h3>
+  <div class="funnel">
+    <div class="funnel-stage awareness"><div class="funnel-icon">👁</div><div class="funnel-body"><strong>Awareness — "I didn't know this was a problem"</strong><p>Meta video ads, YouTube pre-roll, organic social. Hook: gut-muscle axis education. Goal: stop the scroll, create curiosity.</p></div><div class="funnel-metric"><span>Traffic Source</span><strong>Paid + Organic</strong></div></div>
+    <div class="funnel-stage awareness"><div class="funnel-icon">💡</div><div class="funnel-body"><strong>Problem Aware — "This explains why my efforts aren't working"</strong><p>Retargeting with deeper content. Explainer videos. Advertorial. Goal: belief shift on absorption.</p></div><div class="funnel-metric"><span>Traffic Source</span><strong>Retargeting</strong></div></div>
+    <div class="funnel-stage consideration"><div class="funnel-icon">🔍</div><div class="funnel-body"><strong>Solution Aware — "MyoSynex addresses exactly this"</strong><p>Product landing page. Science page. Testimonial videos. FAQ videos. Goal: build confidence in the product mechanism.</p></div><div class="funnel-metric"><span>Key Asset</span><strong>Landing Page</strong></div></div>
+    <div class="funnel-stage consideration"><div class="funnel-icon">🏆</div><div class="funnel-body"><strong>Challenge Aware — "This is more than a supplement"</strong><p>90-day challenge landing page. Challenge video previews. Community proof. Goal: shift frame from "buying a product" to "joining a system."</p></div><div class="funnel-metric"><span>Key Asset</span><strong>Challenge LP</strong></div></div>
+    <div class="funnel-stage conversion"><div class="funnel-icon">🛒</div><div class="funnel-body"><strong>Conversion — "I'm ready to start"</strong><p>Product page with challenge bundle offer. Subscription option presented. Guarantee reinforced. Goal: first purchase + challenge enrollment.</p></div><div class="funnel-metric"><span>Goal</span><strong>Purchase + Enroll</strong></div></div>
+    <div class="funnel-stage retention"><div class="funnel-icon">📲</div><div class="funnel-body"><strong>Onboarding — "I know what to do and why"</strong><p>Welcome email via GHL. App onboarding (Passion.io). Day 1–7 challenge content. Goal: habit formation in the first week.</p></div><div class="funnel-metric"><span>KPI</span><strong>Week 1 retention</strong></div></div>
+    <div class="funnel-stage retention"><div class="funnel-icon">🔄</div><div class="funnel-body"><strong>Retention — "I'm seeing progress and I belong here"</strong><p>Weekly challenge content. Community engagement. Progress tracking. Milestone emails via GHL. Goal: 90-day completion + subscription.</p></div><div class="funnel-metric"><span>KPI</span><strong>Challenge completion</strong></div></div>
+    <div class="funnel-stage retention"><div class="funnel-icon">🌟</div><div class="funnel-body"><strong>Advocacy — "I tell people about this"</strong><p>Testimonial request. Referral program. UGC campaign. Social proof collection. Goal: customer becomes a growth asset.</p></div><div class="funnel-metric"><span>KPI</span><strong>Referral rate</strong></div></div>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S6: WEBSITE ═══ -->
+<span id="s6" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 06</div>
+  <h2 class="sec-h2">Website &amp; <em>Landing Page Strategy</em></h2>
+  <p class="sec-intro">The website is the centerpiece of the entire commercial system. Every ad, video, email, and social post flows here. It must educate, build trust, and convert — in that order.</p>
+</div>
+
+<div class="card">
+  <h3 class="card-h3">Homepage <em>Structure</em></h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Section</th><th>Purpose</th><th>Headline Direction</th><th>Key Element</th></tr></thead>
+      <tbody>
+        <tr><td><strong>01 — Hero</strong></td><td>Capture attention, state brand promise</td><td>"Your muscles need more than protein. They need a better gut."</td><td>Video Business Card autoplay, CTA to challenge</td></tr>
+        <tr><td><strong>02 — Problem</strong></td><td>Create resonance with core pain</td><td>"You've been doing everything right. Here's what nobody told you."</td><td>Relatable scenario carousel: stairs, standing up, carrying groceries</td></tr>
+        <tr><td><strong>03 — Gut-Muscle Axis</strong></td><td>Introduce the key science concept</td><td>"The gut-muscle connection: the reason most supplements fall short after 50"</td><td>Animated diagram or infographic</td></tr>
+        <tr><td><strong>04 — Product Mechanism</strong></td><td>Explain how MyoSynex works</td><td>"Three things MyoSynex does that protein alone cannot"</td><td>3-step mechanism graphic</td></tr>
+        <tr><td><strong>05 — 90-Day Challenge</strong></td><td>Present the system differentiator</td><td>"The supplement is just the beginning. The challenge is where change happens."</td><td>Challenge preview video + enrollment CTA</td></tr>
+        <tr><td><strong>06 — Ingredients</strong></td><td>Build credibility with science-minded buyers</td><td>"Every ingredient. Every reason why."</td><td>Expandable ingredient cards with study references</td></tr>
+        <tr><td><strong>07 — Social Proof</strong></td><td>Validate the decision</td><td>"Real people. Real results. 90 days at a time."</td><td>Video testimonials + star ratings</td></tr>
+        <tr><td><strong>08 — FAQ</strong></td><td>Remove final objections</td><td>"Honest answers to the questions everyone asks."</td><td>Expandable FAQ with compliant responses</td></tr>
+        <tr><td><strong>09 — Final CTA</strong></td><td>Convert the bottom-of-page reader</td><td>"Start your 90 days today. Join the first wave."</td><td>Bundle offer + subscription + guarantee badge</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card teal-top">
+  <h3 class="card-h3">Landing Page <em>Architecture</em></h3>
+  <div class="three-col" style="margin:24px 0;">
+    <div class="pos-item"><div class="pos-label">Challenge Sign-Up Page</div><div class="pos-text">Headline: "Join 500 Proactive Agers in the First MyoSynex 90-Day Challenge." Sections: What you get, How it works, What's in the challenge, Testimonials, Enrollment form. CTA: "I'm Ready to Start."</div></div>
+    <div class="pos-item"><div class="pos-label">Product Landing Page</div><div class="pos-text">Headline: "The Gut-Muscle System Built for Adults 50+." Sections: Hero, Problem, Mechanism, Ingredients, Challenge offer, Guarantee. CTA: "Start My 90-Day Journey."</div></div>
+    <div class="pos-item"><div class="pos-label">Advertorial Page</div><div class="pos-text">Style: Editorial article format. "Why Everything You've Been Told About Muscle After 50 Is Incomplete." Pure education leading to product reveal at 70% page depth. No obvious ad styling.</div></div>
+    <div class="pos-item"><div class="pos-label">Quiz Funnel Page</div><div class="pos-text">Start: "Take the 2-minute muscle health assessment." 6–8 questions about activity, diet, energy, recovery. Result: personalized product recommendation + challenge invitation. High conversion mechanism.</div></div>
+    <div class="pos-item"><div class="pos-label">Science Education Hub</div><div class="pos-text">Deep-dive content for the skeptical, research-minded buyer. Explained gut-muscle axis, ingredient studies, mechanism of action. Builds authority with HCPs and researchers.</div></div>
+    <div class="pos-item"><div class="pos-label">Post-Purchase Onboarding</div><div class="pos-text">Headline: "Welcome to the 90-Day Challenge. Let's make sure you get results." Day 1 setup guide, app download, first challenge video, community invitation. Reduces refund risk dramatically.</div></div>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S7: OFFER & MONETIZATION ═══ -->
+<span id="s7" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 07</div>
+  <h2 class="sec-h2">Offer &amp; <em>Monetization Strategy</em></h2>
+  <p class="sec-intro">Premium brands don't discount — they stack value. Every offer should feel like an invitation to a better experience, not a deal on a commodity.</p>
+</div>
+
+<div class="card gold-top">
+  <h3 class="card-h3">Offer <em>Architecture</em></h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Offer</th><th>Who It's For</th><th>What's Included</th><th>CTA</th><th>Positioning Rule</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Core Bottle</strong></td><td>First-time skeptic, Amazon shopper</td><td>1 bottle (30-day supply) + Challenge access</td><td>"Try MyoSynex for 30 days"</td><td>Never sell without challenge access. The challenge makes the product work better.</td></tr>
+        <tr><td><strong>90-Day Starter Bundle</strong></td><td>Committed buyer who understands the system</td><td>3 bottles + Full challenge access + Nutrition guide + Community access</td><td>"Start Your 90-Day Journey"</td><td>Frame the discount as the commitment to results, not a price reduction.</td></tr>
+        <tr><td><strong>Subscribe &amp; Save</strong></td><td>Challenge completers ready for ongoing support</td><td>Monthly supply + Ongoing challenge access + Priority support</td><td>"Subscribe and keep the results"</td><td>Present after Day 60. Frame as protecting progress, not saving money.</td></tr>
+        <tr><td><strong>Family Bundle</strong></td><td>Couples or caregiver buyers</td><td>2x 90-day supply + Joint challenge access</td><td>"Start together, stay strong together"</td><td>Shared journey creates accountability and doubles commitment.</td></tr>
+        <tr><td><strong>First-Time Offer</strong></td><td>New visitors from paid ads</td><td>Core bottle + Free shipping + Digital welcome guide</td><td>"Start risk-free"</td><td>Lower barrier to first purchase. Upgrade to 90-day bundle at checkout.</td></tr>
+        <tr><td><strong>VIP Community Pass</strong></td><td>High-intent repeat buyers</td><td>Quarterly supply + VIP community + Exclusive content + Early product access</td><td>"Join the Inner Circle"</td><td>Creates the highest LTV segment. Makes them feel like insiders.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout blue" style="margin-top:20px;"><div class="callout-label">Premium Value Stacking Rule</div><p>Never present an offer as "cheaper." Present every offer as "more complete." The 90-day bundle isn't cheaper — it's the scientifically recommended minimum time to see full gut-muscle optimization. Subscription isn't a discount — it's protecting the progress already built.</p></div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S8: SOCIAL MEDIA ═══ -->
+<span id="s8" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 08</div>
+  <h2 class="sec-h2">Social Media <em>Strategy</em></h2>
+  <p class="sec-intro">Social media is SolidFarma's trust-building infrastructure. It is where the brand earns the right to be believed before the audience ever visits the website.</p>
+</div>
+
+<div class="card teal-top">
+  <h3 class="card-h3">30-Day Content <em>Calendar Framework</em></h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Content Type</th><th>Frequency</th><th>Format</th><th>Purpose</th><th>Funnel Stage</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Science Made Simple</strong></td><td>3× per week</td><td>Reel or carousel</td><td>Explains gut-muscle connection in under 60 seconds. Hook: counterintuitive insight.</td><td>Awareness</td></tr>
+        <tr><td><strong>Daily Habit Tips</strong></td><td>2× per week</td><td>Short video or graphic</td><td>Nutrition, movement, sleep, stress — one actionable tip per post.</td><td>Consideration → Onboarding</td></tr>
+        <tr><td><strong>Community Spotlight</strong></td><td>2× per week</td><td>Story re-share or post</td><td>Participant check-ins, milestones, progress moments. Social proof in real time.</td><td>Retention → Advocacy</td></tr>
+        <tr><td><strong>Product Education</strong></td><td>1× per week</td><td>Carousel or talking head video</td><td>What's in MyoSynex. Why it works. How to take it. Ingredient transparency.</td><td>Consideration</td></tr>
+        <tr><td><strong>Challenge Invitation</strong></td><td>2× per week</td><td>Short video or animated post</td><td>Direct invite to join the 90-day challenge. Shows what participants experience.</td><td>Conversion</td></tr>
+        <tr><td><strong>Myth-Busting</strong></td><td>1× per week</td><td>Reel with text overlay</td><td>"This is why protein alone isn't enough after 50." Pattern interrupts common assumptions.</td><td>Awareness</td></tr>
+        <tr><td><strong>Lifestyle / Aspiration</strong></td><td>2× per week</td><td>Photo or short video</td><td>Visual representation of the proactive ager. Active, confident, joyful. Brand aspiration, not product push.</td><td>Awareness → Trust</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card">
+  <h3 class="card-h3">Platform <em>Priorities</em></h3>
+  <div class="two-col" style="margin:24px 0;">
+    <div class="pos-item"><div class="pos-label">Instagram</div><div class="pos-text">Primary organic platform. Reels for reach, carousels for education, Stories for community. The visual home of the brand. Build toward 5,000 engaged followers before Wave 1 launch.</div></div>
+    <div class="pos-item"><div class="pos-label">Facebook</div><div class="pos-text">Strongest paid performance platform for the 50+ demographic. Community group for challenge participants. Ads manager for full-funnel campaigns. Critical for the target age group's primary social behavior.</div></div>
+    <div class="pos-item"><div class="pos-label">YouTube</div><div class="pos-text">Long-form trust-building. Science explainers, expert-led education, documentary-style brand content. SEO plays well here. Secondary launch priority, primary scale priority.</div></div>
+    <div class="pos-item"><div class="pos-label">TikTok (Future Phase)</div><div class="pos-text">Growing 50+ audience. Talking-object concepts and educational content perform well. Expand here in Month 2 once core platforms are running consistently.</div></div>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S9: PAID ADS ═══ -->
+<span id="s9" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 09</div>
+  <h2 class="sec-h2">Paid Ads — <em>50+ Creative Testing</em></h2>
+  <p class="sec-intro">The single biggest mistake DTC brands make with paid advertising is under-testing. Most launch with 3–5 creatives. Winning brands launch with 50 or more. Here's why that number matters for SolidFarma.</p>
+</div>
+
+<div class="ads-testing-banner">
+  <div style="position:relative;z-index:2;">
+    <div style="font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--energy);margin-bottom:16px;opacity:.8;">Why Volume Is a Strategy, Not a Budget</div>
+    <h3 style="font-family:'Playfair Display',serif;font-size:clamp(26px,3.5vw,38px);font-weight:600;color:#fff;line-height:1.15;margin-bottom:16px;">You Cannot Find a <em style="color:var(--energy);">Winning Ad</em><br/>Without Enough to Test Against</h3>
+    <p style="font-size:15px;color:rgba(255,255,255,.6);line-height:1.85;max-width:680px;margin-bottom:28px;">The algorithm needs volume to identify what works. Your audience needs variety to show you what resonates. One winning hook out of five tests tells you almost nothing. <strong style="color:#fff;">One winning hook out of fifty tells you exactly who your buyer is and exactly how to reach more of them.</strong> This is not about spending more — it is about learning faster. And faster learning compounds into dramatically lower cost per acquisition.</p>
+    <div class="ads-num-row">
+      <div class="ads-num-tile"><div class="ads-num">5+</div><div class="ads-num-label">Core Concepts</div></div>
+      <div class="ads-num-tile"><div class="ads-num">10</div><div class="ads-num-label">Hook Variations Per Concept</div></div>
+      <div class="ads-num-tile"><div class="ads-num">50+</div><div class="ads-num-label">Minimum Active Creatives</div></div>
+      <div class="ads-num-tile"><div class="ads-num">100</div><div class="ads-num-label">For Starters (scaling winners as we discover them)</div></div>
+    </div>
+    <div style="background:rgba(255,255,255,.05);border:1px solid rgba(246,200,95,.2);border-radius:14px;padding:22px 28px;">
+      <div style="font-size:9.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--energy);margin-bottom:10px;">The Math That Makes This Work</div>
+      <p style="font-size:13.5px;color:rgba(255,255,255,.6);line-height:1.75;">For every 10 creatives tested, approximately 2–3 will perform above average, 1 will significantly outperform, and the rest provide signal. <strong style="color:#fff;">That 1 winner covers the cost of all the others and more</strong> — but only if you have enough tests running to find it. Launching with 50 ads is not aggressive. It is mathematically disciplined.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <h3 class="card-h3">Ad Hook <em>Library — 20 Ready-to-Test Examples</em></h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Category</th><th>Hook</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Gut-Muscle Axis</strong></td><td>"The reason your muscles aren't responding isn't protein. It's something most people never check."</td></tr>
+        <tr><td><strong>Gut-Muscle Axis</strong></td><td>"After 50, your gut and your muscles stop talking to each other the way they used to. This is what fixes that."</td></tr>
+        <tr><td><strong>Problem Aware</strong></td><td>"If you eat well, exercise regularly, and still feel like your strength is slipping — this is for you."</td></tr>
+        <tr><td><strong>Problem Aware</strong></td><td>"You've tried the protein. You've tried the multivitamins. Here's what was missing the whole time."</td></tr>
+        <tr><td><strong>Independence</strong></td><td>"I decided at 58 that I wasn't going to slow down. Here's the one thing that changed everything."</td></tr>
+        <tr><td><strong>Independence</strong></td><td>"The difference between aging and aging well comes down to one thing most supplements overlook entirely."</td></tr>
+        <tr><td><strong>Science-Led</strong></td><td>"There's a direct biological pathway between your gut microbiome and your muscle tissue. Here's why that matters after 50."</td></tr>
+        <tr><td><strong>Science-Led</strong></td><td>"Lysine activates the signal that tells your body to build and protect muscle. Here's why most people over 50 aren't absorbing it."</td></tr>
+        <tr><td><strong>Challenge Invite</strong></td><td>"500 adults over 50 are starting a 90-day challenge in June. Here's everything that's included — beyond the supplement."</td></tr>
+        <tr><td><strong>Challenge Invite</strong></td><td>"What happens to your body when you combine the right supplement with 90 days of intentional living?"</td></tr>
+        <tr><td><strong>Functional Strength</strong></td><td>"Muscle strength after 50 isn't about the gym. It's about standing, carrying, climbing, and not being afraid of falling."</td></tr>
+        <tr><td><strong>Functional Strength</strong></td><td>"Your muscles don't know you're eating enough protein. Let me show you why."</td></tr>
+        <tr><td><strong>Retargeting</strong></td><td>"You visited our site earlier. The 90-Day Challenge we mentioned — here's what it actually looks like inside."</td></tr>
+        <tr><td><strong>Retargeting</strong></td><td>"Still thinking about it? Here are three things challenge participants tell us they wish they'd known before starting."</td></tr>
+        <tr><td><strong>Social Proof</strong></td><td>"She's 64, hikes twice a week, and just finished the 90-day challenge. Here's what changed."</td></tr>
+        <tr><td><strong>Social Proof</strong></td><td>"60 days in, and he told me stairs feel different. Not dramatic — just different. That's what this is."</td></tr>
+        <tr><td><strong>Pattern Interrupt</strong></td><td>"This isn't a protein supplement. It isn't a probiotic. It's the thing that connects them — and it's what's been missing."</td></tr>
+        <tr><td><strong>Pattern Interrupt</strong></td><td>"Most supplement brands are fighting over the wrong problem. Here's the one nobody talks about."</td></tr>
+        <tr><td><strong>Emotional</strong></td><td>"At 67, I told my doctor I wanted to be walking my grandkids to school at 80. She told me what I needed to change."</td></tr>
+        <tr><td><strong>Emotional</strong></td><td>"My father could barely stand up from a chair at 72. I made a decision at 55 that I was not going to be that story."</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card teal-top">
+  <h3 class="card-h3">Creative Testing <em>Protocol</em></h3>
+  <div class="two-col" style="margin:24px 0;">
+    <div class="callout blue"><div class="callout-label">Phase 1 — Hook Testing (Weeks 1–2)</div><p><strong>Goal:</strong> Identify the emotional register that resonates most. Run 10 different hooks with identical body copy and CTA. Measure 3-second view rate, hook hold rate, and click-through. <strong>Top 3 hooks advance.</strong> The rest become learning.</p></div>
+    <div class="callout teal"><div class="callout-label">Phase 2 — Narrative Testing (Weeks 3–4)</div><p><strong>Goal:</strong> Find the best story structure. Take top 3 hooks, pair each with 3 different narratives — problem-led, science-led, community-led. 9 new ads from 3 hooks. The winning combination scales.</p></div>
+    <div class="callout gold"><div class="callout-label">Phase 3 — CTA and Landing Page Testing (Week 5+)</div><p><strong>Goal:</strong> Optimize conversion, not just clicks. Take the winning creative and test 3 different CTAs and 2 landing page variants. This is where cost per acquisition drops dramatically.</p></div>
+    <div class="callout dark"><div class="callout-label">Ongoing — Retargeting and UGC Layer</div><p><strong>Goal:</strong> Lower-funnel efficiency. Warm audiences who watched 50%+ of the top video receive challenge-specific creative. UGC from real participants supplements polished creative. Both reduce CPMs over time.</p></div>
+  </div>
+  <div class="two-col" style="margin:24px 0;">
+    <div class="script-block">
+      <div class="script-label">30-Second Ad Script — "Absorption Problem"</div>
+      <div class="script-text"><strong>[0:00]</strong> "If you eat enough protein and still feel like your muscles aren't keeping up — this is probably why."<br/><br/><strong>[0:06]</strong> "After 50, your gut becomes less efficient at absorbing the specific amino acid that tells your body to build muscle. You can eat more protein all you want — but without proper absorption, it doesn't reach your muscles."<br/><br/><strong>[0:18]</strong> "MyoSynex is the first supplement designed specifically for this gap. Clinically studied probiotics. Lysine activators. Essential minerals. One capsule a day."<br/><br/><strong>[0:26]</strong> "Join the 90-Day Challenge at solidfarma.com."</div>
+    </div>
+    <div class="script-block">
+      <div class="script-label">15-Second Ad Script — "The Gut Answer"</div>
+      <div class="script-text"><strong>[0:00]</strong> "The answer to muscle health after 50 isn't more protein."<br/><br/><strong>[0:04]</strong> "It's fixing what happens before the protein gets to your muscles. It's your gut."<br/><br/><strong>[0:09]</strong> "MyoSynex. The gut-muscle system for adults 50+."<br/><br/><strong>[0:13]</strong> "Join the 90-Day Challenge — solidfarma.com."</div>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S10: 90-DAY CHALLENGE ═══ -->
+<span id="s10" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 10</div>
+  <h2 class="sec-h2">90-Day Challenge <em>Growth Strategy</em></h2>
+  <p class="sec-intro">The 90-day challenge is the single most powerful commercial asset in the SolidFarma business model. Executed correctly, it transforms the brand from a supplement company into a health transformation platform.</p>
+</div>
+
+
+
+
+<div class="card teal-top">
+  <h3 class="card-h3">Retention &amp; <em>Subscription Conversion</em></h3>
+  <div class="three-col" style="margin:24px 0;">
+    <div class="pos-item"><div class="pos-label">Progress Milestones</div><div class="pos-text">Day 7 badge, Day 30 milestone (celebration email + social share prompt), Day 60 check-in (personalized encouragement), Day 90 completion (certificate + testimonial request).</div></div>
+    <div class="pos-item"><div class="pos-label">Community Mechanics</div><div class="pos-text">Daily check-in prompts, Weekly challenge posts, Peer accountability pairs, Expert Q&A sessions (monthly), Top contributor spotlights.</div></div>
+    <div class="pos-item"><div class="pos-label">Subscription Conversion Window</div><div class="pos-text">Day 60 email: "You're 2/3 through. Subscribe now to ensure no gap in your supply." Day 75: offer with community continuity framing. Day 88: final reminder before challenge ends.</div></div>
+  </div>
+  <div class="callout gold"><div class="callout-label">The Testimonial Engine</div><p>At Day 90, every participant receives a personalized "Your Journey" email with a one-click video testimonial request. Target: 30% of completers submit a video. These become the most powerful ads, website elements, and social proof assets in the entire marketing system. Build this process from Day 1.</p></div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S11: BRAND VOICE ═══ -->
+<span id="s11" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 11</div>
+  <h2 class="sec-h2">Brand Voice &amp; <em>Messaging System</em></h2>
+  <p class="sec-intro">SolidFarma's voice is what separates it from every supplement brand that shouts claims. This brand listens, teaches, and earns trust.</p>
+</div>
+
+
+
+<div class="card teal-top">
+  <h3 class="card-h3">Messaging <em>Templates</em></h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Message Type</th><th>Examples</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Homepage Headlines</strong></td><td>"Your muscles don't need more protein. They need a better gut." / "Built for proactive agers who refuse to slow down." / "The system that changes how you age from the inside out."</td></tr>
+        <tr><td><strong>Email Subject Lines</strong></td><td>"The protein mistake most people over 50 make" / "Day 1 starts now — here's what to do first" / "Your gut and your muscles are talking. Are you listening?" / "60 days in. Here's what's changing."</td></tr>
+        <tr><td><strong>CTA Language</strong></td><td>"Start my 90 days" / "Join the challenge" / "Show me the science" / "I'm ready to try" / "Keep my progress going"</td></tr>
+        <tr><td><strong>Objection Handling</strong></td><td>"I've tried supplements before and they didn't work" → "Most supplements skip the gut entirely. That's the gap MyoSynex was designed to fill." / "90 days is too long" → "Most people feel the difference in the first 30. The 90 days is about making it permanent."</td></tr>
+        <tr><td><strong>Trust Builders</strong></td><td>"Clinically studied, not just formulated." / "Every ingredient on the label is there for a specific reason." / "We tell you what we can and can't claim — because your trust matters more than a sales line."</td></tr>
+        <tr><td><strong>Challenge Invitations</strong></td><td>"We're inviting 500 people to experience the system." / "No gym required. No extreme diet. Just 90 days of showing up." / "The challenge is free when you start with MyoSynex. The only thing you invest is 10 minutes a day."</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S12: COMPETITIVE LANDSCAPE ═══ -->
+<span id="s12" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 12</div>
+  <h2 class="sec-h2">Competitive <em>Landscape</em></h2>
+  <p class="sec-intro">SolidFarma does not compete in the supplement category. It creates a new category — the functional aging system — that leaves most competitors unable to follow.</p>
+</div>
+
+<div class="card gold-top">
+  <h3 class="card-h3">Competitive <em>Positioning Table</em></h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Category</th><th>Common Positioning</th><th>Key Weakness</th><th>SolidFarma Opportunity</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Protein Supplements</strong></td><td>"More protein = more muscle." Performance and gym-centric.</td><td>Ignores the absorption gap. Misses the 50+ audience entirely. Athletic imagery alienates proactive agers.</td><td>"Protein is the raw material. Absorption is the real difference. MyoSynex fixes the upstream problem."</td></tr>
+        <tr><td><strong>Generic Probiotics</strong></td><td>Gut health, digestion, immunity. No muscle connection.</td><td>Doesn't connect gut health to muscle. Single-benefit positioning creates single-use customers.</td><td>Own the gut-muscle axis. MyoSynex is the only product that connects gut health to functional muscle for 50+.</td></tr>
+        <tr><td><strong>Healthy Aging Supplements</strong></td><td>Multivitamins, antioxidants, general "healthy aging." Passive messaging.</td><td>No specificity. No challenge. No retention mechanism. Feels like a generic gift for elderly parents.</td><td>SolidFarma offers a system with specific, actionable science, a 90-day journey, and community — not a generic capsule.</td></tr>
+        <tr><td><strong>Muscle Support Supplements</strong></td><td>Creatine, HMB, BCAAs. Performance and strength claims.</td><td>Bodybuilding language alienates the 50+ proactive ager. No lifestyle system. No retention beyond re-order.</td><td>MyoSynex is not about gym performance — it is about functional independence. Completely different emotional register.</td></tr>
+        <tr><td><strong>Medical Nutrition Products</strong></td><td>Clinical, hospital/HCP-facing, fear-based.</td><td>Cold, medicalized aesthetic. Feels like a medical diagnosis rather than an empowering choice.</td><td>SolidFarma combines clinical credibility with aspirational, empowering positioning. Premium lifestyle brand with real science.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout teal" style="margin-top:20px;"><div class="callout-label">The Category Creation Strategy</div><p>The most powerful competitive move SolidFarma can make is not to win in an existing category — it is to define a new one. <strong>"Premium Gut-Muscle Functional Aging System"</strong> is a category that SolidFarma can own entirely. First-mover advantage in a clearly defined category is worth more than being the 15th brand in a crowded one.</p></div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S13: TECH STACK ═══ -->
+<span id="s13" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 13</div>
+  <h2 class="sec-h2">Tech Stack &amp; <em>Platform Setup</em></h2>
+  <p class="sec-intro">A premium DTC brand needs the right infrastructure from Day 1. The platforms below form the complete operational and marketing backbone of SolidFarma USA — and Zarrin Productions is equipped to set up and manage all of them.</p>
+</div>
+
+<div class="card gold-top">
+  <h3 class="card-h3">The Full <em>Platform Architecture</em></h3>
+  <div class="callout blue" style="margin-bottom:28px;"><div class="callout-label">Why Infrastructure Matters at Launch</div><p>Most DTC brands launch with a patchwork of disconnected tools and spend the first six months fixing the plumbing while trying to grow. <strong>Zarrin sets up the full stack before launch</strong> — so every platform talks to every other one, every customer action triggers the right automation, and every marketing dollar is properly tracked from ad click to repeat purchase.</p></div>
+  <div class="tech-grid">
+    <div class="tech-card">
+      <div class="tech-card-head">
+        <div class="tech-card-icon">🛒</div>
+        <div class="tech-card-name">Shopify Plus</div>
+        <div class="tech-card-role">E-Commerce Backend &amp; Subscription Engine</div>
+      </div>
+      <div class="tech-card-body">
+        <p>The commercial core of SolidFarma USA. Shopify Plus handles the entire purchasing experience — product pages, checkout, payment processing, inventory, and crucially, subscription management for the "Subscribe &amp; Save" offer architecture.</p>
+        <p>Advanced checkout customization ensures the challenge bundle and subscription upsell are presented at exactly the right moment in the purchase flow. Integration with fulfillment, warehouse management systems, and CRM is seamless.</p>
+        <div class="tech-tag-row">
+          <span class="tech-tag">DTC Store</span>
+          <span class="tech-tag">Subscriptions</span>
+          <span class="tech-tag">Checkout Flows</span>
+          <span class="tech-tag">Inventory</span>
+          <span class="tech-tag teal">Fulfillment Integration</span>
+        </div>
+      </div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-card-head">
+        <div class="tech-card-icon">⚡</div>
+        <div class="tech-card-name">Webflow</div>
+        <div class="tech-card-role">Frontend Website &amp; Landing Pages</div>
+      </div>
+      <div class="tech-card-body">
+        <p>Webflow powers the premium visual experience that Shopify's storefront alone cannot deliver. The homepage, science education hub, advertorial pages, quiz funnel, and challenge landing pages are all built in Webflow — giving the brand the editorial, premium aesthetic that the 50+ proactive ager audience responds to.</p>
+        <p>CMS integration allows the team to update content without developers. Fast load times are critical for ad traffic conversion rates.</p>
+        <div class="tech-tag-row">
+          <span class="tech-tag">Homepage</span>
+          <span class="tech-tag">Landing Pages</span>
+          <span class="tech-tag">Science Hub</span>
+          <span class="tech-tag teal">Quiz Funnel</span>
+          <span class="tech-tag gold">CMS Updates</span>
+        </div>
+      </div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-card-head">
+        <div class="tech-card-icon">🔁</div>
+        <div class="tech-card-name">GoHighLevel (GHL)</div>
+        <div class="tech-card-role">CRM, Email, SMS, Funnels &amp; Automations</div>
+      </div>
+      <div class="tech-card-body">
+        <p>GoHighLevel is the operational nervous system of the marketing engine. It manages every customer relationship after the first purchase — welcome sequences, challenge milestone emails, Day 30 check-ins, subscription conversion flows, and refill reminders are all automated here.</p>
+        <p>The CRM tracks where each customer is in the 90-day journey, enabling personalized communication at scale. SMS flows through GHL are critical for high-open-rate engagement with the 50+ demographic.</p>
+        <div class="tech-tag-row">
+          <span class="tech-tag">CRM</span>
+          <span class="tech-tag">Email Automation</span>
+          <span class="tech-tag">SMS Flows</span>
+          <span class="tech-tag teal">Lead Nurturing</span>
+          <span class="tech-tag gold">Funnel Builder</span>
+        </div>
+      </div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-card-head">
+        <div class="tech-card-icon">📱</div>
+        <div class="tech-card-name">Passion.io</div>
+        <div class="tech-card-role">90-Day Challenge App &amp; Community Platform</div>
+      </div>
+      <div class="tech-card-body">
+        <p>Passion.io hosts the 288-video challenge library, delivers drip content day-by-day, manages the gamification system (badges, milestones, progress tracking), and houses the community where participants connect, share, and hold each other accountable.</p>
+        <p>When a customer purchases MyoSynex through Shopify, the challenge access license is automatically triggered and sent to Passion.io. The app is accessible on mobile and desktop — critical for a 50+ audience that uses both.</p>
+        <div class="tech-tag-row">
+          <span class="tech-tag">Video Delivery</span>
+          <span class="tech-tag">Gamification</span>
+          <span class="tech-tag">Community</span>
+          <span class="tech-tag teal">Progress Tracking</span>
+          <span class="tech-tag gold">Mobile + Desktop</span>
+        </div>
+      </div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-card-head">
+        <div class="tech-card-icon">📣</div>
+        <div class="tech-card-name">Meta Ads Manager</div>
+        <div class="tech-card-role">Full-Funnel Paid Acquisition</div>
+      </div>
+      <div class="tech-card-body">
+        <p>Meta is the primary paid acquisition platform for the 50+ demographic — Facebook remains the highest-performing channel for this age group, and Instagram's Reels feed drives strong creative reach. The Meta pixel and Conversions API must be properly installed across Shopify, Webflow, and GHL to track the full customer journey.</p>
+        <p>Proper pixel setup enables accurate retargeting, lookalike audiences from challenge completers, and reliable attribution — the data foundation that makes the 50+ creative testing protocol effective.</p>
+        <div class="tech-tag-row">
+          <span class="tech-tag">Facebook Ads</span>
+          <span class="tech-tag">Instagram Ads</span>
+          <span class="tech-tag">Pixel Setup</span>
+          <span class="tech-tag teal">Retargeting</span>
+          <span class="tech-tag gold">Lookalike Audiences</span>
+        </div>
+      </div>
+    </div>
+    <div class="tech-card">
+      <div class="tech-card-head">
+        <div class="tech-card-icon">📊</div>
+        <div class="tech-card-name">Analytics &amp; Tracking Stack</div>
+        <div class="tech-card-role">Performance Intelligence</div>
+      </div>
+      <div class="tech-card-body">
+        <p>Google Analytics 4 (cross-platform), Meta Pixel + CAPI (ad attribution), UTM tracking architecture (source → sale mapping), Shopify Analytics (revenue, LTV, subscription), and GHL reporting (email/SMS performance, challenge engagement) form a complete data picture.</p>
+        <p>Monthly performance dashboards give SolidFarma leadership visibility into every metric that matters — from cost per challenge sign-up to 90-day retention rate to subscription conversion percentage.</p>
+        <div class="tech-tag-row">
+          <span class="tech-tag">Google Analytics 4</span>
+          <span class="tech-tag">UTM Tracking</span>
+          <span class="tech-tag teal">Revenue Attribution</span>
+          <span class="tech-tag gold">LTV Reporting</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="callout teal" style="margin-top:8px;"><div class="callout-label">How the Platforms Connect</div><p>Shopify (purchase) → triggers Passion.io (challenge access) + GHL (onboarding email + SMS sequence). Webflow (landing page visitor) → Meta Pixel fires → GHL captures lead → retargeting audience builds. GHL (Day 60 milestone) → sends subscription offer email + SMS. <strong>Every touchpoint is automated, tracked, and connected. No gaps. No manual follow-up. No missed opportunities.</strong></p></div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S14: EXECUTION ROADMAP ═══ -->
+<span id="s14" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 14</div>
+  <h2 class="sec-h2">Execution <em>Roadmap</em></h2>
+  <p class="sec-intro">Nine phases from brand finalization to scale. Zarrin Productions is positioned to lead or collaborate on every phase.</p>
+</div>
+
+<div class="card">
+  <h3 class="card-h3">Phase <em>Overview</em></h3>
+  <div class="phase-grid">
+    <div class="phase-card"><div class="phase-num">Phase 1</div><div class="phase-name">Brand &amp; Strategy Finalization</div><div class="phase-week">Week 1–2</div><div class="phase-tasks">Brand guidance received. Messaging system finalized. Positioning approved. Color palette and typography locked. Compliance language established.</div></div>
+    <div class="phase-card"><div class="phase-num">Phase 2</div><div class="phase-name">Messaging &amp; Copy Development</div><div class="phase-week">Week 2–3</div><div class="phase-tasks">Homepage copy. Ad scripts (50+ hooks). Email sequences. Challenge copy. Landing page copy. All aligned to brand voice guidelines.</div></div>
+    <div class="phase-card"><div class="phase-num">Phase 3</div><div class="phase-name">Tech Stack Setup</div><div class="phase-week">Week 2–4</div><div class="phase-tasks">Shopify Plus store build. Webflow site and landing pages. GHL CRM + automation flows. Passion.io app configured. Meta pixel + CAPI installed. Analytics architecture live.</div></div>
+    <div class="phase-card"><div class="phase-num">Phase 4</div><div class="phase-name">Video Asset Production</div><div class="phase-week">Week 3–8</div><div class="phase-tasks">288 challenge videos post-produced (Phase 1 = first 72 minimum for launch). Video Business Card. 50+ ad creatives. Explainer video. Testimonial template.</div></div>
+    <div class="phase-card"><div class="phase-num">Phase 5</div><div class="phase-name">Social Media Setup</div><div class="phase-week">Week 4–5</div><div class="phase-tasks">Instagram and Facebook pages launched. Bio and profile optimized. First 30-day content calendar executed. Pre-launch content live and building audience.</div></div>
+    <div class="phase-card"><div class="phase-num">Phase 6</div><div class="phase-name">Paid Ads — Hook Testing</div><div class="phase-week">Week 5–7</div><div class="phase-tasks">First 10 hook variants launched. Meta pixel firing correctly. Audience segmentation built. Retargeting setup. Budget controlled during testing phase.</div></div>
+    <div class="phase-card"><div class="phase-num">Phase 7</div><div class="phase-name">Launch — Wave 1</div><div class="phase-week">Week 8 (June)</div><div class="phase-tasks">Challenge Wave 1 opens. Paid ads scale with winning creative. GHL email + SMS sequences activate. Community onboarding begins. First 500 participants targeted.</div></div>
+    <div class="phase-card"><div class="phase-num">Phase 8</div><div class="phase-name">Retention &amp; Community</div><div class="phase-week">Weeks 9–20</div><div class="phase-tasks">Weekly challenge content delivered via Passion.io. Community moderated. Progress tracked. Subscription conversion sequences run via GHL. Testimonials collected at Day 90.</div></div>
+    <div class="phase-card"><div class="phase-num">Phase 9</div><div class="phase-name">Optimization &amp; Scale</div><div class="phase-week">Month 3+</div><div class="phase-tasks">Wave 2 challenge launch. Ad creative iteration. New UGC integrated. SEO content begins. Website optimization from conversion data. Partnership and HCP outreach.</div></div>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ S15: ASSET LIST ═══ -->
+<span id="s15" class="section-anchor"></span>
+<div class="sec-header">
+  <div class="sec-num">Section 15</div>
+  <h2 class="sec-h2">Priority <em>Asset List</em></h2>
+  <p class="sec-intro">Every asset SolidFarma needs, organized by priority. Nothing is produced for its own sake — every asset serves a specific commercial function.</p>
+</div>
+
+<div class="card gold-top">
+  <h3 class="card-h3">Complete <em>Asset Register</em></h3>
+  <div class="asset-grid">
+    <div class="asset-group">
+      <div class="asset-group-label must"><span class="asset-dot must"></span>Must-Have Before Launch</div>
+      <ul class="asset-list-items">
+        <li>288 challenge videos (Phase 1 minimum = first 72)</li>
+        <li>Homepage with Video Business Card embedded</li>
+        <li>Product landing page (Webflow)</li>
+        <li>90-day challenge landing page</li>
+        <li>5-email post-purchase onboarding sequence (GHL)</li>
+        <li>50+ Meta ad creatives (hooks tested, winners scaled)</li>
+        <li>Instagram + Facebook pages fully set up</li>
+        <li>30 pre-launch content posts</li>
+        <li>Passion.io challenge app configured with Phase 1 content</li>
+        <li>GHL CRM + automation flows live</li>
+        <li>Shopify Plus store + subscription offer live</li>
+        <li>Meta Pixel + CAPI + Google Analytics 4 installed</li>
+        <li>Video Business Card (2–3 min website video)</li>
+        <li>FAQ video series (5–7 videos)</li>
+      </ul>
+    </div>
+    <div class="asset-group">
+      <div class="asset-group-label should"><span class="asset-dot should"></span>Should-Have Soon After Launch</div>
+      <ul class="asset-list-items">
+        <li>Full 288 challenge video library complete</li>
+        <li>Advertorial page (educational pre-sell)</li>
+        <li>Quiz funnel / muscle health assessment</li>
+        <li>10+ video testimonials from Wave 1</li>
+        <li>Science education hub page</li>
+        <li>Retargeting ad creative set (10+ concepts)</li>
+        <li>Month 2 social content calendar</li>
+        <li>SMS welcome + milestone sequence (GHL)</li>
+        <li>Community welcome pack (Passion.io)</li>
+        <li>Progress tracking templates in app</li>
+        <li>12 product images (various use cases)</li>
+        <li>Subscription re-engagement sequence</li>
+      </ul>
+    </div>
+    <div class="asset-group">
+      <div class="asset-group-label scale"><span class="asset-dot scale"></span>Scale Assets (Month 2–3)</div>
+      <ul class="asset-list-items">
+        <li>UGC campaign brief + creator templates</li>
+        <li>Referral program creative and flows</li>
+        <li>YouTube long-form content series</li>
+        <li>Google search campaign ads</li>
+        <li>Wave 2 challenge launch materials</li>
+        <li>Ambassador program brief</li>
+        <li>TikTok content and ad creative</li>
+        <li>Advanced GHL segmentation and personalization</li>
+      </ul>
+    </div>
+    <div class="asset-group">
+      <div class="asset-group-label long"><span class="asset-dot long"></span>Long-Term Authority Assets</div>
+      <ul class="asset-list-items">
+        <li>Science white paper / clinical summary</li>
+        <li>Investor-friendly brand deck</li>
+        <li>Retail sell sheets</li>
+        <li>HCP education materials</li>
+        <li>Brand documentary / founder story video</li>
+        <li>Podcast / audio content series</li>
+        <li>PR press kit</li>
+        <li>Annual brand review document</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══ CTA ═══ -->
+<div class="cta-section">
+  <p style="font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(59,201,168,.6);margin-bottom:16px;position:relative;z-index:2;">What Comes Next</p>
+  <h2 class="cta-h2" style="position:relative;z-index:2;">Let&rsquo;s Build This <em>Together</em></h2>
+  <p class="cta-sub" style="position:relative;z-index:2;">This strategy represents everything Zarrin Productions is prepared to execute for SolidFarma USA — the 288 videos, the complete tech stack setup, the paid acquisition engine with 50+ creative testing, the challenge platform, and the full marketing system that will make this launch a genuine success. We are ready to begin the moment brand guidelines land.</p>
+  <div class="cta-buttons" style="position:relative;z-index:2;">
+    <a href="https://calendly.com/lucy-zarrinproduction" target="_blank" rel="noopener" class="btn btn-teal">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      Schedule a Strategy Call
+    </a>
+    <a href="#s0" class="btn btn-outline">Review Strategy from Top</a>
+  </div>
+  <div style="margin-top:48px;padding-top:40px;border-top:1px solid rgba(255,255,255,.07);position:relative;z-index:2;">
+    <p style="font-family:'Playfair Display',serif;font-style:italic;font-size:18px;color:rgba(255,255,255,.5);margin-bottom:8px;">Warm regards,</p>
+    <p style="font-family:'Playfair Display',serif;font-size:36px;font-weight:600;color:#fff;">Lucy Davis</p>
+    <p style="font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--teal);margin-top:8px;">Zarrin Productions</p>
+  </div>
+</div>
+
+</main>
+
+<footer class="foot">
+  <p>Prepared Exclusively for SolidFarma USA Corp. &middot; Confidential &middot; Zarrin Productions &copy; 2026 &middot; Strategy Document v2.0</p>
+</footer>
+
+</body>
+</html>
